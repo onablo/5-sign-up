@@ -5,14 +5,16 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}body {
-    background-color:  #9fcbe0;
+}
+
+body {
+    background-color: #9fcbe0;
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    margin-top: 100px;    
+    margin-top: 90px;    
     margin-left: calc((100% - 800px) / 2);    
 }
 
@@ -27,9 +29,25 @@ body * {
     float: left;
     padding: 60px; 
     background-color:#fff;
+    position: relative;
 }
 
 .close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;    
+    font-size: 30px;
+    text-align: center;
+    line-height: 57px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #777;
+}
+.close:hover {
+    color:#333;
+    background-color: #ccc;
+    cursor: pointer;
 }
 
 form {
@@ -62,14 +80,14 @@ form > .form-row > input {
 }
 form > .form-row > button {
     float: left;
-    padding: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 16px;      
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;      
     font-weight: bold;
     line-height: 20px;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #015cda;
     color:  #fff; 
     text-transform: capitalize;
@@ -77,10 +95,10 @@ form > .form-row > button {
 }
 form > .form-row > span {
     float: left; 
-    padding: 5px;
+    padding: 10px;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px; 
 }    
 form > .form-row > a {    
@@ -91,7 +109,6 @@ form > .form-row > a {
     color: #015cda; 
     text-decoration: none;
     font-weight: bold;
-
 }
 
    
