@@ -9,14 +9,17 @@ body * {
 
 body {
     background-color: #9fcbe0;
+    position: relative;
+    height: 100vh;
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    margin-top: 90px;    
-    margin-left: calc((100% - 800px) / 2);
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .left-column { 
@@ -48,7 +51,7 @@ body {
 .left-column > .links > a {  
     color: #fff;  
 }
-.left-column > .links >span {    
+.left-column > .links > span {    
 }
 
 .right-column {
@@ -56,6 +59,7 @@ body {
     float: right;
     padding: 60px; 
     background-color:#fff;
+    position: relative;
 }
 
 .close {
@@ -129,8 +133,8 @@ form > .form-row > span {
 }    
 form > .form-row > a {    
     float: left; 
-    padding: 5px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 18px;
     line-height: 20px;
     color: #015cda; 
     text-decoration: none;
