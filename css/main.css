@@ -8,9 +8,20 @@ body * {
 }
 
 body {
-    background-color: #9fcbe0;
+    background-color: #6367b1;
     position: relative;
     height: 100vh;
+}
+.backgraund {
+    display: inline-block;     
+    width: 100%;
+    height: 100%;    
+    background-color: blue;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(20px);
 }
 
 .container {
